@@ -25,6 +25,7 @@ body {
   font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 15px;
   line-height: 1.5;
+  overflow-x: clip;
 }
 button, input, textarea, select { font: inherit; }
 button { cursor: pointer; }
@@ -143,14 +144,14 @@ h2 { margin: 8px 0 0; font-size: 27px; letter-spacing: -.045em; line-height: 1.1
 .category-tag { display: inline-flex; align-items: center; min-height: 23px; padding: 3px 9px; color: #954633; background: var(--coral-soft); border-radius: 999px; font-size: 10px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
 .card-arrow { color: #a8b1b1; font-size: 19px; transition: color .2s, transform .2s; }
 .recipe-card:hover .card-arrow { color: var(--petrol); transform: translate(2px, -2px); }
-.recipe-card h3 { margin: 19px 0 8px; font-size: 21px; line-height: 1.15; letter-spacing: -.045em; }
+.recipe-card h3 { margin: 19px 0 8px; font-size: 21px; line-height: 1.15; letter-spacing: -.045em; overflow-wrap: anywhere; }
 .card-meta { display: flex; flex-wrap: wrap; gap: 14px; color: var(--ink-soft); font-size: 12px; }
 .card-meta span { display: inline-flex; align-items: center; gap: 5px; }
 .meta-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--coral); }
 .card-preview { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; margin: auto 0 0; padding-top: 20px; color: var(--ink-soft); font-size: 13px; line-height: 1.5; }
 .card-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 16px; padding-top: 13px; border-top: 1px dashed var(--line); color: #9aa4a5; font-size: 11px; }
 .card-footer > span:last-child { flex: 0 0 auto; white-space: nowrap; }
-.card-ingredients { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card-ingredients { min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .empty-state { padding: 80px 20px 65px; border: 1px dashed #d7d4cd; border-radius: var(--radius-md); text-align: center; margin-top: 18px; background: rgba(255,253,249,.5); }
 .empty-illustration { width: 82px; height: 64px; margin: 0 auto 20px; position: relative; }
@@ -205,9 +206,9 @@ h2 { margin: 8px 0 0; font-size: 27px; letter-spacing: -.045em; line-height: 1.1
 .detail-content { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 30px; padding: 22px 0 4px; border-top: 1px dashed var(--line); }
 .detail-block h3 { margin: 0 0 13px; color: var(--petrol); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
 .ingredient-list { padding: 0; margin: 0; list-style: none; }
-.ingredient-list li { position: relative; padding: 7px 0 7px 18px; border-bottom: 1px dashed #ece9e2; color: var(--ink-soft); font-size: 13px; }
+.ingredient-list li { position: relative; padding: 7px 0 7px 18px; border-bottom: 1px dashed #ece9e2; color: var(--ink-soft); font-size: 13px; overflow-wrap: anywhere; }
 .ingredient-list li::before { content: ''; width: 5px; height: 5px; position: absolute; left: 1px; top: 14px; border-radius: 50%; background: var(--coral); }
-.instructions { color: var(--ink-soft); font-size: 14px; line-height: 1.75; white-space: pre-line; }
+.instructions { color: var(--ink-soft); font-size: 14px; line-height: 1.75; white-space: pre-line; overflow-wrap: anywhere; }
 .detail-footer #deleteButton { margin-right: auto; }
 
 /* Publicação para o celular */
@@ -234,7 +235,7 @@ html.modo-leitura #publicarButton { display: none; }
 .publicar-status div > span { margin-top: 3px; color: var(--ink-soft); font-size: 12px; }
 .publicar-status .status-dot { margin-top: 5px; background: #2f9e6f; box-shadow: 0 0 0 4px rgba(47,158,111,.14); }
 .publicar-url { display: flex; align-items: center; gap: 8px; margin-top: 13px; padding: 9px 12px; border: 1px dashed var(--line); border-radius: 9px; background: var(--muted); font-size: 12px; }
-.publicar-url a { overflow: hidden; color: var(--petrol); font-weight: 700; text-overflow: ellipsis; white-space: nowrap; }
+.publicar-url a { min-width: 0; overflow: hidden; color: var(--petrol); font-weight: 700; text-overflow: ellipsis; white-space: nowrap; }
 .publicar-url .icon-button { flex: none; width: 30px; height: 30px; font-size: 15px; }
 .publicar-help { margin: 18px 0 0; padding-top: 15px; border-top: 1px dashed var(--line); color: var(--ink-soft); font-size: 11.5px; line-height: 1.6; }
 .publicar-help summary { color: var(--ink); cursor: pointer; font-weight: 700; }
@@ -400,7 +401,7 @@ button, .recipe-card, a { touch-action: manipulation; }
   .collection-section { margin-top: 26px; }
   .toolbar { margin-top: 16px; }
   .select-field { width: 100%; }
-  .recipe-grid { grid-template-columns: 1fr; }
+  .recipe-grid { grid-template-columns: minmax(0, 1fr); }
   .recipe-card { min-height: 190px; }
 
   /* Modais viram folhas deslizantes, como em um app nativo */

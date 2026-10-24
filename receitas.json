@@ -1,0 +1,459 @@
+{
+  "versao": 1,
+  "atualizadoEm": "2026-10-24T21:47:41.968Z",
+  "receitas": [
+    {
+      "id": "6ed38eb4-d72e-4187-b996-7a6bb22cce08",
+      "name": "Bolo de limão",
+      "ingredients": [
+        "2 ovos",
+        "30g de açúcar",
+        "15g de suco de limão",
+        "30g de iogurte natural",
+        "10g de amido de milho",
+        "30g de farinha de arroz",
+        "raspas de limão",
+        "1/2 tampa de fermento"
+      ],
+      "instructions": "",
+      "createdAt": "2026-10-04T00:23:29.441Z",
+      "updatedAt": "2026-10-04T00:23:29.441Z"
+    },
+    {
+      "id": "775eac8e-dae9-489b-8c1d-b3edeaef3b25",
+      "name": "Cobertura Bolo de limão",
+      "ingredients": [
+        "70g de iogurte natural",
+        "20g leite em pó",
+        "15g de açúcar",
+        "20g de suco de limão"
+      ],
+      "instructions": "",
+      "createdAt": "2026-10-04T00:23:48.759Z",
+      "updatedAt": "2026-10-04T00:23:48.759Z"
+    },
+    {
+      "id": "46dfe661-5220-4adb-93a5-3e99f758df8a",
+      "name": "Pão de queijo de tapioca (assado)",
+      "ingredients": [
+        "1 ovo",
+        "1 clara",
+        "50g queijo ralado",
+        "150g tapioca",
+        "1/2 tampa de fermento"
+      ],
+      "instructions": "",
+      "createdAt": "2026-10-04T00:24:52.987Z",
+      "updatedAt": "2026-10-04T00:24:52.987Z"
+    },
+    {
+      "id": "3163f687-91b5-4efa-987a-a0e6f85787f5",
+      "name": "Pão de queijo de frigideira",
+      "ingredients": [
+        "1 ovo",
+        "3 colheres de sopa de tapioca",
+        "1 fatia de queijo",
+        "sal a gosto",
+        "1/2 tampa de fermento"
+      ],
+      "instructions": "",
+      "createdAt": "2026-10-04T00:25:33.512Z",
+      "updatedAt": "2026-10-04T00:25:33.512Z"
+    },
+    {
+      "id": "0a9e927c-310b-47e5-99d3-4dd1c6ebff1e",
+      "name": "Ovo Cozido",
+      "ingredients": [
+        "ovos",
+        "1 colher de sopa de vinagre",
+        "sal a gosto"
+      ],
+      "instructions": "Ferver a água com sal e vinagre;\nColocar o(s) ovo(s) para cozinhar por 7 minutos.\nRetirar o(s) ovo(s) da água quente e colocar imediatamente em água gelada para interromper o cozimento.",
+      "createdAt": "2026-10-04T00:38:53.120Z",
+      "updatedAt": "2026-10-04T00:38:53.120Z"
+    },
+    {
+      "id": "1b33bbe7-2d19-4dca-b591-ef4ca2d49fa0",
+      "name": "Maionese Caseira",
+      "ingredients": [
+        "3 ovos cozidos",
+        "1 colher sopa vinagre arroz",
+        "1 colher sopa azeite de oliva",
+        "5 colheres sopa óleo",
+        "1 colher sopa alho triturado",
+        "pimenta a gosto",
+        "sal a gosto"
+      ],
+      "instructions": "triturar bem com a haste do mixer até emulsionar.",
+      "createdAt": "2026-10-04T00:40:52.123Z",
+      "updatedAt": "2026-10-04T00:40:52.123Z"
+    },
+    {
+      "id": "2a7a005d-0b5f-4de7-b843-0caa67d5e786",
+      "name": "Iogurte natural",
+      "ingredients": [
+        "800ml de leite uht integral (ninho ou parmalat)",
+        "15g iogurte natural (starter)"
+      ],
+      "instructions": "Ferver o leite.\nEsperar esfriar até atingir a temperatura aproximada de 47 °C.\nMisturar um pouco de leite ao starter, e em seguida misturar ao restante do leite.\nColocar na iogurteira por 6hs.\nApós, levar a geladeira para finalizar a fermentação e transferir para os potes de vidro.",
+      "createdAt": "2026-10-04T00:43:58.764Z",
+      "updatedAt": "2026-10-04T00:43:58.764Z"
+    },
+    {
+      "id": "8f6cdd78-86fc-48b2-80df-ab6a3af85358",
+      "name": "Bolo de Coco \"bom bocado\"",
+      "ingredients": [
+        "5 ovos",
+        "300g de iogurte natural",
+        "200g coco ralado",
+        "30g açúcar",
+        "1 tampa fermento"
+      ],
+      "instructions": "rende (15 a 18 bolinhos)",
+      "createdAt": "2026-10-04T00:46:52.472Z",
+      "updatedAt": "2026-10-04T00:46:52.472Z"
+    },
+    {
+      "id": "d12e46df-02c7-4e79-b6fe-8d4692adae50",
+      "name": "Brownie",
+      "ingredients": [
+        "1 ovo",
+        "80g açúcar",
+        "15g cacau",
+        "15g manteiga derretida",
+        "50g farinha sem glúten"
+      ],
+      "instructions": "* hidratar o cacau com a manteiga derretida\n* untar a forma com óleo e polvilhar cacau",
+      "createdAt": "2026-10-04T00:48:10.814Z",
+      "updatedAt": "2026-10-04T00:48:10.814Z"
+    },
+    {
+      "id": "0dbde68f-c829-497e-a164-bcf1cbbbe478",
+      "name": "Muffin recheado",
+      "ingredients": [
+        "1 ovo",
+        "50g açúcar",
+        "60g óleo",
+        "200ml leite (vegetal ou animal)",
+        "180g farinha sem glúten",
+        "1 colher chá essência baunilha",
+        "1 tampa fermento"
+      ],
+      "instructions": "bater os ingredientes nessa ordem, preferencialmente com o batedor do mixer, acrescentar leite e farinha aos poucos.\n\n* recheio goiabada ou nutella. Para usar brigadeiro ou doce de leite, colocar após o muffin estar assado.",
+      "createdAt": "2026-10-04T00:50:44.592Z",
+      "updatedAt": "2026-10-04T01:16:33.822Z"
+    },
+    {
+      "id": "c21f3a34-1bb4-4902-b0fe-7de00987996c",
+      "name": "Bolo de maçã",
+      "ingredients": [
+        "2 ovos",
+        "25g açúcar",
+        "60g óleo",
+        "1 colher chá canela",
+        "1 pitada de sal",
+        "110g farinha aveia",
+        "165g de maçã triturada",
+        "1/2 tampa fermento"
+      ],
+      "instructions": "Adicionar os ingredientes na sequencia da lista, farinha de aveia e maçã devem ser adicionados aos poucos.",
+      "createdAt": "2026-10-04T00:53:17.881Z",
+      "updatedAt": "2026-10-04T00:53:17.881Z"
+    },
+    {
+      "id": "1bacb130-5315-4453-b524-49c7d17dabf5",
+      "name": "Crepe/panqueca",
+      "ingredients": [
+        "3 ovos",
+        "150g tapioca",
+        "100ml leite (vegetal ou animal)",
+        "15g chia (opcional)"
+      ],
+      "instructions": "Misturar os ingredientes na sequência da lista, e após misturar, imediatamente cozinhar os crepes em frigideira antiaderente pré aquecida (não precisa untar).\nRende de 6 a 7 crepes dependendo do tamanho.",
+      "createdAt": "2026-10-04T00:55:07.656Z",
+      "updatedAt": "2026-10-04T00:55:07.656Z"
+    },
+    {
+      "id": "b5c5f0d6-8d93-4157-89e8-5dae07d29482",
+      "name": "Bolo milho",
+      "ingredients": [
+        "2 ovos",
+        "100ml leite (vegetal ou animal)",
+        "1 colher sopa oleo",
+        "3 colheres sopa flocão de milho",
+        "60g açúcar",
+        "170g de milho",
+        "1/2 tampa de fermento"
+      ],
+      "instructions": "* hidratar o flocão de milho em 6 colheres de água.\n* se usar chá de hortelã, deverá ser feito chá forte, e usado para o flocão (cerca de 80ml).",
+      "createdAt": "2026-10-04T01:04:01.528Z",
+      "updatedAt": "2026-10-04T01:04:01.528Z"
+    },
+    {
+      "id": "65506c0a-5f43-4376-8a81-024360381a3f",
+      "name": "Bolo de cenoura",
+      "ingredients": [
+        "300g cenoura cozida no vapor",
+        "2 ovos",
+        "30g óleo",
+        "45g açúcar",
+        "1 colher chá de canela",
+        "1 pitada de sal",
+        "80g de farinha de arroz",
+        "45g polvilho doce",
+        "35g de amido de milho",
+        "1 tampa fermento"
+      ],
+      "instructions": "",
+      "createdAt": "2026-10-04T01:06:17.839Z",
+      "updatedAt": "2026-10-04T01:06:17.839Z"
+    },
+    {
+      "id": "d7682ea1-c366-472c-bc30-a35d429a9943",
+      "name": "\"Brigadeiro\"",
+      "ingredients": [
+        "75g leite em pó",
+        "65g açúcar",
+        "25g cacau",
+        "180g água"
+      ],
+      "instructions": "Misturar os secos em uma panela. Acrescentar a água aos poucos até formar uma pastinha.\nLevar ao foto médio, sempre mexendo até dar o ponto formando o \"caminho de Moisés\".",
+      "createdAt": "2026-10-04T01:08:53.214Z",
+      "updatedAt": "2026-10-04T01:08:53.214Z"
+    },
+    {
+      "id": "7cf92744-a4ec-489d-b6f0-3eaee4fd1d27",
+      "name": "Bolo de chocolate \"molhadinho\"",
+      "ingredients": [
+        "2 ovos",
+        "80g açúcar",
+        "40g oleo",
+        "15g cacau",
+        "200ml de leite (vegetal ou animal)",
+        "50g de farinha de arroz",
+        "50g de farinha de aveia",
+        "40g de polvilho doce",
+        "1 pitada de sal",
+        "1 tampa fermento"
+      ],
+      "instructions": "* Hidratar o cacau em 100ml de leite morno.",
+      "createdAt": "2026-10-04T01:14:07.967Z",
+      "updatedAt": "2026-10-04T01:15:44.699Z"
+    },
+    {
+      "id": "09fe553d-df33-4dfc-b47d-5c9e5798b6f4",
+      "name": "Calda para molhar Bolo de Chocolate \"molhadinho\"",
+      "ingredients": [
+        "100ml de leite (vegetal ou animal)",
+        "15g açúcar",
+        "5g cacau"
+      ],
+      "instructions": "Misturar e levar ao fogo médio até atingir ponto de fervura.\nFazer furos no bolo e espalhar a calda ainda quente sob o bolo.",
+      "createdAt": "2026-10-04T01:15:31.772Z",
+      "updatedAt": "2026-10-04T01:15:31.772Z"
+    },
+    {
+      "id": "ddfce8e2-081e-43a1-a1aa-6b0197e20dac",
+      "name": "Pasta de Amendoim",
+      "ingredients": [
+        "200g de amendoim torrado sem pele"
+      ],
+      "instructions": "Colocar o amendoim em assadeira bem espalhado, levar ao forno em temperatura máxima por 15 a 20 minutos. \nEsperar esfriar alguns minutos caso esteja sem pele, senão remover a pele.\nTriturar no processador até atingir o ponto cremoso de pasta.",
+      "createdAt": "2026-10-04T01:19:08.936Z",
+      "updatedAt": "2026-10-04T01:19:08.936Z"
+    },
+    {
+      "id": "dcc429a8-8294-45fe-a44d-faab140a9d0a",
+      "name": "Geleia de Morango",
+      "ingredients": [
+        "300g de morango sem \"tampa\"",
+        "2 colheres de sopa de açúcar",
+        "gel de chia",
+        "1 colher de sopa de suco de limão"
+      ],
+      "instructions": "* Gel de chia: 1 colher de sopa de chia para 3 colheres de água, deixar descansar por 15 minutos.\n\nColocar morangos e açúcar em panela, fogo baixo. Deixar reduzir e mexer eventualmente. Após atingir o ponto de geleia, acrescentar o suco de limão e misturar por 2 minutos, mantendo fogo baixo. Ao finalizar, adicionar o gel de chia.",
+      "createdAt": "2026-10-04T01:23:29.960Z",
+      "updatedAt": "2026-10-04T01:23:29.960Z"
+    },
+    {
+      "id": "7028446a-2df0-46e3-932f-727ba52463b4",
+      "name": "Doce leite caseiro",
+      "ingredients": [
+        "300ml de leite uht integral",
+        "60g açúcar"
+      ],
+      "instructions": "* a proporção da receita é sempre 20% da quantidade de leite para açúcar.\n\nMisturar o leite e açúcar. Cozinhar essa mistura em fogo médio-alto, evitando fervura, sempre mexendo até atingir o ponto \"caminho de Moisés\".",
+      "createdAt": "2026-10-04T01:25:08.972Z",
+      "updatedAt": "2026-10-04T01:26:46.461Z"
+    },
+    {
+      "id": "9abc6e7e-7ae3-4bec-8f45-ee2effa7fc36",
+      "name": "Requeijão caseiro",
+      "ingredients": [
+        "200ml de leite integral uht",
+        "1 colher sopa vinagre de alcool",
+        "1 colher sopa manteiga",
+        "sal a gosto"
+      ],
+      "instructions": "Quando o leite levantar fervura, acrescentar o vinagre para talhar o leite.\nAguardar alguns minutos para o leite talhado separar o soro, e então coar com peneira, separando totalmente a massa do soro. A massa deverá ficar um tempo na peneira para escorrer bem, e depois levar ao recipiente juntamente com manteiga e sal, e mixar com a haste do mixer. Se a massa estiver muito densa, adicionar soro do leite.",
+      "createdAt": "2026-10-04T01:26:37.875Z",
+      "updatedAt": "2026-10-04T01:32:10.857Z"
+    },
+    {
+      "id": "05dc47ee-4ed5-4a94-bb43-7a6797fa6cb6",
+      "name": "Molho tomate",
+      "ingredients": [
+        "7 a 10 tomates \"italianos\"",
+        "1 cenoura",
+        "cebola",
+        "azeite de oliva",
+        "sal",
+        "pimenta",
+        "óregano",
+        "páprica picante"
+      ],
+      "instructions": "Assar os ingredientes em temperatura máxima por 1h ou mais.\nMixar todos os itens assados com a haste do mixer, se necessário acrescentar um pouco de água e acertar o sal.",
+      "createdAt": "2026-10-04T01:35:21.228Z",
+      "updatedAt": "2026-10-04T01:35:21.228Z"
+    },
+    {
+      "id": "91e3a662-ba2f-428e-9e3d-54017adace81",
+      "name": "Pizza de Liquidificador",
+      "ingredients": [
+        "3 ovos",
+        "10g de azeite de oliva",
+        "110g de cebola",
+        "30g de farinha de arroz",
+        "30g de farinha de aveia",
+        "sal",
+        "orégano",
+        "50ml de água (se necessário)",
+        "1/2 tampa de fermento"
+      ],
+      "instructions": "* fazer essa receita no liquidificador.\n* pré assar por cerca de 20 minutos a 200 °C, para poder rechear com molho.",
+      "createdAt": "2026-10-04T01:43:23.433Z",
+      "updatedAt": "2026-10-04T01:43:51.732Z"
+    },
+    {
+      "id": "1d45ec4c-ba0f-4432-806d-6f386cc8a3fa",
+      "name": "Cheesecake de iogurte",
+      "ingredients": [
+        "1 ovo",
+        "20g de açúcar",
+        "110g de iogurte natural",
+        "1 colher sopa amido de milho"
+      ],
+      "instructions": "* rende um cheesecake pequeno\n* colocar cobertura de geleia de morango",
+      "createdAt": "2026-10-04T01:47:09.740Z",
+      "updatedAt": "2026-10-04T01:47:09.740Z"
+    },
+    {
+      "id": "fc965e8e-2a0c-4035-856d-5ab6bcd59e6b",
+      "name": "Cookie de Chocolate com Okara",
+      "ingredients": [
+        "120g de pasta de amendoim",
+        "60g de açúcar",
+        "2 colheres de sopa de cacau hidratado",
+        "1 colher de chá de essência de baunilha",
+        "1 colher de chá de canela em pó",
+        "1 pitada de sal",
+        "150g de okara de soja",
+        "1/2 tampa de fermento"
+      ],
+      "instructions": "* hidratar o cacau em aproximadamente 100ml de leite morno, água ou em 15g de óleo",
+      "createdAt": "2026-10-04T03:02:10.358Z",
+      "updatedAt": "2026-10-04T03:02:10.358Z"
+    },
+    {
+      "id": "213eee84-e6c8-45e4-84eb-3fc9196838a5",
+      "name": "Pastel de moranga",
+      "ingredients": [
+        "1 ovo",
+        "200g de purê de moranga",
+        "2 colheres de sopa azeite de oliva",
+        "sal a gosto",
+        "110g de farinha de aveia",
+        "110g de mix de farinha sem glúten"
+      ],
+      "instructions": "Mixar o ovo, moranga e azeite. Adicionar o sal e a farinha de aveia inteira. A farinha sem glúten deve ser adicionada aos poucos.",
+      "createdAt": "2026-10-04T03:12:43.745Z",
+      "updatedAt": "2026-10-04T03:12:43.745Z"
+    },
+    {
+      "id": "4ae85676-b50e-47e8-842c-fafb1bed5d85",
+      "name": "Homus",
+      "ingredients": [
+        "200g de grão de bico cozido",
+        "15g de azeite de oliva",
+        "1 colher de sopa de alho triturado",
+        "30ml de suco de limão ou vinagre de arroz",
+        "60g de tahine",
+        "sal",
+        "pimenta"
+      ],
+      "instructions": "",
+      "createdAt": "2026-10-04T03:25:44.757Z",
+      "updatedAt": "2026-10-04T03:25:44.757Z"
+    },
+    {
+      "id": "8c1a4a30-a61a-4dea-b7ee-182d8cd0d487",
+      "name": "Pipoca doce (microondas)",
+      "ingredients": [
+        "4 colheres sopa milho pipoca",
+        "2 colheres sopa açúcar",
+        "2 colheres sopa nescau",
+        "2 colheres sopa óleo",
+        "2 colheres sopa água"
+      ],
+      "instructions": "* colocar no microondas por 7:30",
+      "createdAt": "2026-10-04T22:55:28.051Z",
+      "updatedAt": "2026-10-04T22:55:28.051Z"
+    },
+    {
+      "id": "4f0d4c81-cad0-4899-a841-cb59e147807f",
+      "name": "Tortilha \"Rap10\"",
+      "ingredients": [
+        "115g de farinha sem glúten",
+        "1 colher de sopa de azeite",
+        "sal a gosto",
+        "70ml de água"
+      ],
+      "instructions": "* rende 4 tortilhas pequenas ou 3 médias",
+      "createdAt": "2026-10-09T19:48:32.020Z",
+      "updatedAt": "2026-10-09T19:48:32.020Z"
+    },
+    {
+      "id": "14e7c987-bf70-4087-b30f-34b4fe71b725",
+      "name": "\"Donut\" de chocolate",
+      "ingredients": [
+        "1 ovo",
+        "50g açúcar",
+        "10g óleo",
+        "60g leite",
+        "15g cacau",
+        "1/2 colher de chá de canela",
+        "pitada de sal",
+        "55g farinha de aveia",
+        "30g amido de milho",
+        "1/2 tampa de fermento"
+      ],
+      "instructions": "* hidratar cacau com água quente e misturar com os líquidos.\n\n* rechear com brigadeiro fake. Rende 6 \"donuts\" na forma de pudinzinho.",
+      "createdAt": "2026-10-12T23:22:57.796Z",
+      "updatedAt": "2026-10-12T23:22:57.796Z"
+    },
+    {
+      "id": "72101d95-b719-4f82-989d-12e98175bc47",
+      "name": "Panqueca americana",
+      "ingredients": [
+        "3 ovos",
+        "40ml de leite (uht ou vegetal)",
+        "45g farinha sem glúten",
+        "30g açúcar",
+        "* essência de baunilha opcional para tirar gosto de ovo"
+      ],
+      "instructions": "Separar gemas das claras.\nMisturar gemas com leite, e em seguida adicionar a farinha sem glúten aos poucos, até incorporar a massa.\nBater as claras com açúcar até atingir o ponto \"em neve\".\nAdicionar as claras em neve aos poucos e misturar suavemente na massa de gema, leite e farinha.\nUntar frigideira com um pouco de óleo, colocar em fogo médio/baixo. Usar uma concha para colocar a massa na frigideira (dá para fazer 2 por vez), adicionar um pouco de água na frigideira e tampar, virar quando estiver cozido em cima.",
+      "createdAt": "2026-10-21T01:59:43.957Z",
+      "updatedAt": "2026-10-21T01:59:43.957Z"
+    }
+  ]
+}

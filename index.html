@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#fbf8f2" />
+    <meta name="description" content="Caderno digital para guardar e imprimir suas receitas." />
+    <title>Receita Fácil — seu caderno de receitas</title>
+
+    <script>
+      // O computador abre o arquivo local (modo edição). No endereço publicado,
+      // o app abre em modo somente leitura, para consulta no celular.
+      (function () {
+        var modo = new URLSearchParams(location.search).get('modo');
+        var leitura = modo ? modo === 'leitura' : location.protocol !== 'file:';
+        if (leitura) document.documentElement.classList.add('modo-leitura');
+      })();
+    </script>
+
+    <!-- Instalação como aplicativo (iPhone, Android e computador) -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Receita Fácil" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png" />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/icon.svg" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Navegação principal">
+        <div class="brand-lockup">
+          <div class="brand-mark" aria-hidden="true">RF</div>
+          <div>
+            <span class="brand-name">receita fácil</span>
+            <span class="brand-caption">seu caderno digital</span>
+          </div>
+        </div>
+
+        <div class="sidebar-note">
+          <span class="eyebrow">feito para guardar</span>
+          <p>Uma coleção leve para suas receitas de todo dia — pronta para consultar e imprimir.</p>
+        </div>
+
+        <div class="sidebar-bottom">
+          <button class="storage-status" id="sidebarPublishButton" type="button">
+            <span class="status-dot" aria-hidden="true"></span>
+            <div>
+              <strong id="publishStatusTitle">Ainda não publicado</strong>
+              <span id="publishStatusText">Toque para enviar ao celular</span>
+            </div>
+          </button>
+          <p class="sidebar-footnote">Dica: baixe o backup em Markdown para guardar, editar ou importar sua coleção depois.</p>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <div class="mobile-brand">
+            <div class="brand-mark small" aria-hidden="true">RF</div>
+            <span>receita fácil</span>
+            <span class="modo-badge">somente leitura</span>
+          </div>
+          <div class="topbar-actions">
+            <input id="markdownFileInput" type="file" accept=".md,text/markdown,text/plain" hidden />
+            <button class="button button-quiet" id="atualizarButton" type="button" title="Buscar as receitas publicadas mais recentes">
+              <span class="icon" aria-hidden="true">⟳</span>
+              Atualizar
+            </button>
+            <button class="button button-quiet" id="publicarButton" type="button" title="Enviar as receitas para o celular">
+              <span class="icon" aria-hidden="true">↑</span>
+              Publicar
+            </button>
+            <button class="button button-quiet" id="importMarkdownButton" type="button" title="Importar receitas de um arquivo Markdown">
+              <span class="icon" aria-hidden="true">↥</span>
+              Importar .md
+            </button>
+            <button class="button button-quiet" id="exportMarkdownButton" type="button" title="Salvar ou compartilhar um backup editável em Markdown">
+              <span class="icon" aria-hidden="true">↓</span>
+              Backup .md
+            </button>
+            <button class="button button-quiet" id="topExportButton" type="button">
+              <span class="icon" aria-hidden="true">↗</span>
+              Exportar PDF
+            </button>
+            <button class="button button-primary" id="topAddButton" type="button">
+              <span class="plus" aria-hidden="true">+</span>
+              Nova receita
+            </button>
+          </div>
+        </header>
+
+        <div class="content-wrap">
+          <section class="welcome-row" aria-labelledby="pageTitle">
+            <div>
+              <span class="eyebrow">coleção de receitas</span>
+              <h1 id="pageTitle">Sua coleção, pronta para a próxima fome<span class="title-dot">.</span></h1>
+              <p class="intro-copy">Guarde o que funciona, ajuste o que quiser e leve tudo para o papel quando precisar.</p>
+            </div>
+            <div class="welcome-stamp" aria-hidden="true">
+              <span>RF</span>
+              <small>feito em casa</small>
+            </div>
+          </section>
+
+          <section class="stats-grid" aria-label="Resumo da coleção">
+            <article class="stat-card accent">
+              <span class="stat-label">Receitas guardadas</span>
+              <strong id="recipeCount">0</strong>
+              <span class="stat-helper" id="recipeCountHelper">Comece sua coleção hoje.</span>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Formato de saída</span>
+              <strong>2 col.</strong>
+              <span class="stat-helper">Todas em um único PDF.</span>
+            </article>
+            <article class="stat-card quote-card">
+              <span class="quote-mark" aria-hidden="true">“</span>
+              <p>Receita boa é aquela que dá vontade de repetir.</p>
+              <span class="quote-author">— caderno da cozinha</span>
+            </article>
+          </section>
+
+          <section class="collection-section" aria-labelledby="collectionTitle">
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">seu arquivo</span>
+                <h2 id="collectionTitle">Todas as receitas</h2>
+              </div>
+              <span class="collection-count" id="visibleCount">0 receitas</span>
+            </div>
+            <p class="viewer-updated" id="viewerUpdated"></p>
+
+            <div class="toolbar">
+              <label class="search-field" for="searchInput">
+                <span class="search-icon" aria-hidden="true">⌕</span>
+                <span class="sr-only">Buscar receitas</span>
+                <input id="searchInput" type="search" placeholder="Buscar por nome ou ingrediente..." autocomplete="off" />
+              </label>
+            </div>
+
+            <div class="recipe-grid" id="recipeGrid" aria-live="polite"></div>
+
+            <div class="empty-state hidden" id="emptyState">
+              <div class="empty-illustration" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <h3 id="emptyTitle">Seu caderno ainda está em branco</h3>
+              <p id="emptyCopy">Que tal guardar aquela receita que todo mundo pede?</p>
+              <button class="button button-primary" id="emptyAddButton" type="button">Cadastrar primeira receita</button>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <div class="modal-backdrop hidden" id="formModal" role="presentation">
+      <section class="modal form-modal" role="dialog" aria-modal="true" aria-labelledby="formModalTitle">
+        <div class="modal-header">
+          <div>
+            <span class="eyebrow">caderno de receitas</span>
+            <h2 id="formModalTitle">Nova receita</h2>
+          </div>
+          <button class="icon-button" id="closeFormButton" type="button" aria-label="Fechar formulário">×</button>
+        </div>
+        <form id="recipeForm">
+          <div class="form-grid two-columns">
+            <label class="form-field wide-field">
+              <span>Nome da receita <b>*</b></span>
+              <input id="nameInput" name="name" required maxlength="80" placeholder="Ex.: Bolo de cenoura da vó" />
+            </label>
+            <label class="form-field">
+              <span>Ingredientes <b>*</b></span>
+              <textarea id="ingredientsInput" name="ingredients" required rows="8" placeholder="Um ingrediente por linha&#10;2 xícaras de farinha&#10;3 ovos&#10;1 xícara de açúcar"></textarea>
+              <small>Digite um item por linha para deixar o PDF mais organizado.</small>
+            </label>
+            <label class="form-field">
+              <span>Modo de preparo <em>(opcional)</em></span>
+              <textarea id="instructionsInput" name="instructions" rows="8" placeholder="Se quiser, conte o preparo passo a passo..."></textarea>
+              <small>Você pode deixar em branco. Quebras de linha serão mantidas no PDF.</small>
+            </label>
+          </div>
+          <div class="modal-footer">
+            <button class="button button-quiet" id="cancelFormButton" type="button">Cancelar</button>
+            <button class="button button-primary" type="submit"><span class="plus" aria-hidden="true">+</span> Salvar receita</button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <div class="modal-backdrop hidden" id="detailModal" role="presentation">
+      <section class="modal detail-modal" role="dialog" aria-modal="true" aria-labelledby="detailTitle" tabindex="-1">
+        <div class="modal-header detail-header">
+          <div id="detailHeading"></div>
+          <button class="icon-button" id="closeDetailButton" type="button" aria-label="Fechar detalhes">×</button>
+        </div>
+        <div class="detail-content" id="detailContent"></div>
+        <div class="modal-footer detail-footer">
+          <button class="button button-danger-quiet" id="deleteButton" type="button">Excluir receita</button>
+          <button class="button button-quiet" id="detailShareButton" type="button">Compartilhar</button>
+          <button class="button button-primary" id="editButton" type="button">Editar receita</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="modal-backdrop hidden" id="confirmModal" role="presentation">
+      <section class="modal confirm-modal" role="dialog" aria-modal="true" aria-labelledby="confirmTitle">
+        <div class="confirm-icon" aria-hidden="true">!</div>
+        <span class="eyebrow">atenção</span>
+        <h2 id="confirmTitle">Excluir esta receita?</h2>
+        <p>Essa ação remove a receita do seu caderno neste navegador. Não será possível desfazer.</p>
+        <div class="modal-footer confirm-footer">
+          <button class="button button-quiet" id="cancelDeleteButton" type="button">Manter receita</button>
+          <button class="button button-danger" id="confirmDeleteButton" type="button">Sim, excluir</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="modal-backdrop hidden" id="publicarModal" role="presentation">
+      <section class="modal publicar-modal" role="dialog" aria-modal="true" aria-labelledby="publicarTitle" tabindex="-1">
+        <div class="modal-header">
+          <div>
+            <span class="eyebrow">do computador para o celular</span>
+            <h2 id="publicarTitle">Publicar receitas</h2>
+          </div>
+          <button class="icon-button" id="closePublicarButton" type="button" aria-label="Fechar publicação">×</button>
+        </div>
+        <div id="publicarBody"></div>
+      </section>
+    </div>
+
+    <div class="install-banner hidden" id="installBanner" role="status">
+      <div class="install-copy">
+        <strong id="installTitle">Instale no celular</strong>
+        <p id="installText">Abra menu do navegador e escolha “Adicionar à tela de início”.</p>
+      </div>
+      <div class="install-actions">
+        <button class="button button-primary" id="installButton" type="button">Instalar app</button>
+        <button class="icon-button" id="dismissInstallButton" type="button" aria-label="Fechar aviso de instalação">×</button>
+      </div>
+    </div>
+
+    <button class="fab" id="fabAddButton" type="button" aria-label="Adicionar nova receita">
+      <span aria-hidden="true">+</span>
+    </button>
+
+    <div class="toast hidden" id="toast" role="status" aria-live="polite"></div>
+    <script src="app.js" defer></script>
+    <script src="publicar.js" defer></script>
+  </body>
+</html>

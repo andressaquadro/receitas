@@ -23,8 +23,6 @@ Use **Backup .md** para guardar uma cópia editável da coleção. Para restaura
 
 Use **Exportar PDF** para abrir a folha de impressão e escolha **Salvar como PDF**. A folha organiza as receitas em duas colunas.
 
-Para enviar uma receita para outra pessoa, abra a receita e toque em **Compartilhar**.
-
 ## Como as receitas chegam ao celular
 
 Clique em **Publicar**, no topo. O app envia um arquivo `receitas.json` para o seu repositório no GitHub, e o celular passa a ver as receitas atualizadas.

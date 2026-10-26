@@ -1,11 +1,11 @@
 /* Service worker do Receita Fácil — permite abrir o app sem internet. */
-const CACHE_NAME = 'receita-facil-v4';
+const CACHE_NAME = 'receita-facil-v5';
 
 const APP_SHELL = [
   './',
   './index.html',
-  './styles.css?v=4',
-  './app.js',
+  './styles.css?v=5',
+  './app.js?v=5',
   './publicar.js',
   './manifest.webmanifest',
   './assets/icons/icon-192.png',

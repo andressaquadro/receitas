@@ -47,12 +47,6 @@ O app mostra essa dica sozinho na primeira visita, com um botão para fechar.
 
 ---
 
-## Compartilhar uma receita
-
-Abra a receita e toque em **Compartilhar**. O celular abre o menu para enviar o texto por WhatsApp, e-mail, mensagens etc.
-
----
-
 ## Atualizações
 
 Quando você publica novas receitas no computador, o celular as recebe ao abrir o app ou ao tocar em **Atualizar**. Os arquivos do próprio app (visual, ícones) são atualizados automaticamente na próxima vez que ele for aberto com internet.

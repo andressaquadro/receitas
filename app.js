@@ -262,32 +262,6 @@ function recipeToMarkdown(recipe) {
   return `## ${recipe.name}\n\n### Ingredientes\n${ingredients}${instructionsSection}`;
 }
 
-function recipeToText(recipe) {
-  const ingredients = recipe.ingredients.map((item) => `• ${item}`).join('\n');
-  const instructions = recipe.instructions ? `\n\nModo de preparo\n${recipe.instructions}` : '';
-  return `${recipe.name}\n\nIngredientes\n${ingredients}${instructions}\n\n— Receita Fácil`;
-}
-
-async function shareRecipe() {
-  const recipe = activeRecipes().find((item) => item.id === state.selectedId);
-  if (!recipe) return;
-  const text = recipeToText(recipe);
-  if (navigator.share) {
-    try {
-      await navigator.share({ title: recipe.name, text });
-      return;
-    } catch (error) {
-      if (error?.name === 'AbortError') return;
-    }
-  }
-  try {
-    await navigator.clipboard.writeText(text);
-    showToast('Receita copiada. Cole onde quiser compartilhar.');
-  } catch {
-    showToast('Não foi possível compartilhar neste navegador.');
-  }
-}
-
 async function saveFile(filename, content, mimeType) {
   const file = new File([content], filename, { type: mimeType });
   const prefersShareSheet = window.matchMedia?.('(pointer: coarse)').matches;
@@ -551,7 +525,6 @@ function bindEvents() {
   $('#importMarkdownButton').addEventListener('click', () => els.markdownFileInput.click());
   els.markdownFileInput.addEventListener('change', importMarkdown);
   $('#topExportButton').addEventListener('click', exportRecipes);
-  $('#detailShareButton').addEventListener('click', shareRecipe);
   $('#closeFormButton').addEventListener('click', () => closeModal(els.formModal));
   $('#cancelFormButton').addEventListener('click', () => closeModal(els.formModal));
   $('#closeDetailButton').addEventListener('click', () => closeModal(els.detailModal));

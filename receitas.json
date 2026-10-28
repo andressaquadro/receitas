@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-10-24T21:47:41.968Z",
+  "atualizadoEm": "2026-10-28T16:14:31.192Z",
   "receitas": [
     {
       "id": "6ed38eb4-d72e-4187-b996-7a6bb22cce08",
@@ -454,6 +454,61 @@
       "instructions": "Separar gemas das claras.\nMisturar gemas com leite, e em seguida adicionar a farinha sem glúten aos poucos, até incorporar a massa.\nBater as claras com açúcar até atingir o ponto \"em neve\".\nAdicionar as claras em neve aos poucos e misturar suavemente na massa de gema, leite e farinha.\nUntar frigideira com um pouco de óleo, colocar em fogo médio/baixo. Usar uma concha para colocar a massa na frigideira (dá para fazer 2 por vez), adicionar um pouco de água na frigideira e tampar, virar quando estiver cozido em cima.",
       "createdAt": "2026-10-21T01:59:43.957Z",
       "updatedAt": "2026-10-21T01:59:43.957Z"
+    },
+    {
+      "id": "df7f31bd-2a93-4482-a5a8-5b8604fa908d",
+      "name": "Salgado empanado",
+      "ingredients": [
+        "Batata cozida (cerca de 450g)",
+        "Frango desfiado (cerca de 300g)",
+        "2 colheres de amido de milho",
+        "sal a gosto",
+        "salsinha",
+        "1 colher de chá de páprica",
+        "---",
+        "2 ovos ou iogurte natural",
+        "20g de linhaça",
+        "flocão de milho",
+        "1/2 colher de chá de sal",
+        "1 colher de chá de páprica",
+        "1 colher de chá de orégano"
+      ],
+      "instructions": "* Amassar a batata cozida até atingir ponto de purê, misturar o frango desfiado, amido de milho, sal, salsinha e páprica.\n* triturar no liquidificador a linhaça, em seguida o flocão de milho e sal. Misturar essa farinha com páprica e orégano.\n* empanar o salgado com 2 ovos batidos ou iogurte natural, e depois passar na \"farinha temperada\".",
+      "createdAt": "2026-10-28T16:09:03.722Z",
+      "updatedAt": "2026-10-28T16:10:30.679Z"
+    },
+    {
+      "id": "42e73132-dcca-4e21-b41c-e1d1b892b37e",
+      "name": "\"Coxinha\" de frango com batata doce",
+      "ingredients": [
+        "Batata Doce",
+        "Frango desfiado",
+        "---",
+        "2 ovos ou iogurte natural",
+        "20g de linhaça",
+        "flocão de milho",
+        "1/2 colher de chá de sal",
+        "1 colher de chá de páprica",
+        "1 colher de chá de orégano"
+      ],
+      "instructions": "* amassar a batata doce em ponto de purê e misturar o frango desfiado.\n* triturar no liquidificador a linhaça, em seguida o flocão de milho e sal. Misturar essa farinha com páprica e orégano.\n* empanar o salgado com 2 ovos batidos ou iogurte natural, e depois passar na \"farinha temperada\".",
+      "createdAt": "2026-10-28T16:09:30.187Z",
+      "updatedAt": "2026-10-28T16:11:09.464Z"
+    },
+    {
+      "id": "b978d3ec-71b4-494a-9fde-c7b42403ef96",
+      "name": "Bolo de Microondas Fit",
+      "ingredients": [
+        "1 ovo",
+        "30g iogurte natural",
+        "10g de açúcar",
+        "20g de leite em pó",
+        "10g de farinha de aveia",
+        "1/2 colher de chá de fermento em pó"
+      ],
+      "instructions": "* \"assar\" por 2 minutos no microondas.\n* para calda, misturar aproximadamente 80g de iogurte natural, 2 colheres de sopa de leite em pó e 1 colher de açúcar, misturar bem. Fazer furos no bolo e despejar essa calda por cima. Acrescentar geleia de morango e polvilhar leite em pó.",
+      "createdAt": "2026-10-28T16:14:22.269Z",
+      "updatedAt": "2026-10-28T16:14:22.269Z"
     }
   ]
 }

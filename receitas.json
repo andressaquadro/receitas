@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-10-28T16:14:31.192Z",
+  "atualizadoEm": "2026-10-29T18:08:48.426Z",
   "receitas": [
     {
       "id": "6ed38eb4-d72e-4187-b996-7a6bb22cce08",
@@ -504,11 +504,11 @@
         "10g de açúcar",
         "20g de leite em pó",
         "10g de farinha de aveia",
-        "1/2 colher de chá de fermento em pó"
+        "2g fermento em pó"
       ],
-      "instructions": "* \"assar\" por 2 minutos no microondas.\n* para calda, misturar aproximadamente 80g de iogurte natural, 2 colheres de sopa de leite em pó e 1 colher de açúcar, misturar bem. Fazer furos no bolo e despejar essa calda por cima. Acrescentar geleia de morango e polvilhar leite em pó.",
+      "instructions": "* \"assar\" por 2 minutos no microondas.\n* para calda, misturar aproximadamente 70g de iogurte natural, 10g de leite em pó e 5g de açúcar, misturar bem. Fazer furos no bolo e despejar essa calda por cima. Acrescentar geleia de morango e polvilhar leite em pó.",
       "createdAt": "2026-10-28T16:14:22.269Z",
-      "updatedAt": "2026-10-28T16:14:22.269Z"
+      "updatedAt": "2026-10-29T18:08:43.627Z"
     }
   ]
 }

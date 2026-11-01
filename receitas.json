@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-10-29T18:08:48.426Z",
+  "atualizadoEm": "2026-11-01T01:38:25.757Z",
   "receitas": [
     {
       "id": "6ed38eb4-d72e-4187-b996-7a6bb22cce08",
@@ -506,9 +506,25 @@
         "10g de farinha de aveia",
         "2g fermento em pó"
       ],
-      "instructions": "* \"assar\" por 2 minutos no microondas.\n* para calda, misturar aproximadamente 70g de iogurte natural, 10g de leite em pó e 5g de açúcar, misturar bem. Fazer furos no bolo e despejar essa calda por cima. Acrescentar geleia de morango e polvilhar leite em pó.",
+      "instructions": "* \"assar\" por 2 minutos no microondas. Fazer furos no bolo e despejar essa calda por cima. \n* Calda de morango: misturar aproximadamente 70g de iogurte natural, 10g de leite em pó e 5g de açúcar, misturar bem. Acrescentar geleia de morango e polvilhar leite em pó.\n* Calda de chocolate: hidratar 5g de cacau. Misturar 10g de leite em pó e 10g de açúcar, em seguida acrescentar 30g de iogurte natural, misturar bem e despejar no bolo. Polvilhar cacau em pó.",
       "createdAt": "2026-10-28T16:14:22.269Z",
-      "updatedAt": "2026-10-29T18:08:43.627Z"
+      "updatedAt": "2026-11-01T01:21:12.700Z"
+    },
+    {
+      "id": "f0239f31-cb34-47e4-82cb-4126bee77a35",
+      "name": "Pão tipo Subway",
+      "ingredients": [
+        "400ml de água morna",
+        "10g de fermento biológico",
+        "30g de açúcar",
+        "30ml de óleo",
+        "5ml de vinagre de arroz",
+        "sal a gosto",
+        "500g de farinha sem glúten"
+      ],
+      "instructions": "* aquecer a água no microondas por 30 segundos. Acrescentar fermento e açúcar, misturar bem, cobrir com plástico filme e toalha, deixar descansar por 10 minutos, até formar espuma.\n* acrescentar óleo, vinagre, sal, misturar, e acrescentar a farinha aos poucos enquanto mexe, até fazer o ponto de textura de bolo firme (não escorre da colher). Cobrir com plástico filme e toalha, deixar a massa descansar por cerca de 1h para dobrar o tamanho.\n* untar a forma e as mãos para moldar os pães, e em seguida assar por 30 minutos em temperatura máxima. Abaixo da forma colocar uma assadeira com água para formar vapor dentro do forno.",
+      "createdAt": "2026-11-01T01:38:03.119Z",
+      "updatedAt": "2026-11-01T01:38:03.119Z"
     }
   ]
 }

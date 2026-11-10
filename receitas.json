@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-01T01:38:25.757Z",
+  "atualizadoEm": "2026-11-10T19:08:23.662Z",
   "receitas": [
     {
       "id": "6ed38eb4-d72e-4187-b996-7a6bb22cce08",
@@ -506,9 +506,9 @@
         "10g de farinha de aveia",
         "2g fermento em pó"
       ],
-      "instructions": "* \"assar\" por 2 minutos no microondas. Fazer furos no bolo e despejar essa calda por cima. \n* Calda de morango: misturar aproximadamente 70g de iogurte natural, 10g de leite em pó e 5g de açúcar, misturar bem. Acrescentar geleia de morango e polvilhar leite em pó.\n* Calda de chocolate: hidratar 5g de cacau. Misturar 10g de leite em pó e 10g de açúcar, em seguida acrescentar 30g de iogurte natural, misturar bem e despejar no bolo. Polvilhar cacau em pó.",
+      "instructions": "* \"assar\" por 2 minutos no microondas. Fazer furos no bolo e despejar essa calda por cima. \n* Calda de morango: misturar aproximadamente 70g de iogurte natural, 10g de leite em pó e 5g de açúcar, misturar bem. Acrescentar geleia de morango e polvilhar leite em pó.\n* Calda de chocolate: hidratar 5g de cacau. Misturar 10g de leite em pó e 10g de açúcar, em seguida acrescentar 30g de iogurte natural, misturar bem e despejar no bolo. Polvilhar cacau em pó.\n* Calda de limão: misturar 50g de iogurte natural, 20g de leite em pó, 10g de açúcar, 5g de suco de limão, raspas de limão a gosto.",
       "createdAt": "2026-10-28T16:14:22.269Z",
-      "updatedAt": "2026-11-01T01:21:12.700Z"
+      "updatedAt": "2026-11-10T19:05:26.449Z"
     },
     {
       "id": "f0239f31-cb34-47e4-82cb-4126bee77a35",
@@ -525,6 +525,31 @@
       "instructions": "* aquecer a água no microondas por 30 segundos. Acrescentar fermento e açúcar, misturar bem, cobrir com plástico filme e toalha, deixar descansar por 10 minutos, até formar espuma.\n* acrescentar óleo, vinagre, sal, misturar, e acrescentar a farinha aos poucos enquanto mexe, até fazer o ponto de textura de bolo firme (não escorre da colher). Cobrir com plástico filme e toalha, deixar a massa descansar por cerca de 1h para dobrar o tamanho.\n* untar a forma e as mãos para moldar os pães, e em seguida assar por 30 minutos em temperatura máxima. Abaixo da forma colocar uma assadeira com água para formar vapor dentro do forno.",
       "createdAt": "2026-11-01T01:38:03.119Z",
       "updatedAt": "2026-11-01T01:38:03.119Z"
+    },
+    {
+      "id": "4fb376a8-1641-4d75-a56d-fbec563b684e",
+      "name": "Brigadeiro \"fake\" sem panela",
+      "ingredients": [
+        "30g de leite em pó",
+        "20g de nescau",
+        "5g de cacau em pó",
+        "água quente até dar o ponto"
+      ],
+      "instructions": "* mexer com fuet até ficar cremoso.",
+      "createdAt": "2026-11-10T19:06:38.673Z",
+      "updatedAt": "2026-11-10T19:06:38.673Z"
+    },
+    {
+      "id": "38e08f65-7452-4ca6-8b99-9a8e4c2aaf81",
+      "name": "Panela Pressão elétrica",
+      "ingredients": [
+        "cenoura no vapor (10min + 1/2 de água)",
+        "batata doce (15min + cobrir de água as batatas)",
+        "arroz integral (20min + 2 copos de arroz + 3 copos de água)"
+      ],
+      "instructions": "",
+      "createdAt": "2026-11-10T19:08:13.149Z",
+      "updatedAt": "2026-11-10T19:08:13.149Z"
     }
   ]
 }
